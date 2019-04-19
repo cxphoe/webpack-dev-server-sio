@@ -16,7 +16,7 @@ which would use some uncompatible features of es6 like `setter/getter`, that won
 
 ## Notice
 
-- Webpack config is basically the same as webpack-dev-server
+- Webpack config is basically the same as webpack 4
 - The compiled result should be compatible with ie8. This tool is just for **hot reload**.
 
 ## Usage
