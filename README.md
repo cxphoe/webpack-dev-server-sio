@@ -63,7 +63,19 @@ module.exports = {
                     '^/re': '/re',
                 },
             },
-        }
+        },
+        // see connect-history-api-fallback
+        historyApiFallback: {
+            rewrites: [
+                {
+                    from: /\/home/, to: '/home.html/',
+                },
+            ],
+        },
+        // set headers of server responses
+        headers: [
+            'set-cookie': 'token=token; path=/',
+        ],
     }
 }
 ```
