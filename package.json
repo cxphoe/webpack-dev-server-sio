@@ -1,6 +1,6 @@
 {
   "name": "webpack-dev-server-sio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack dev server with hot reload and ie8 compability",
   "main": "lib/tool.js",
   "bin": {
